@@ -1,8 +1,9 @@
 ﻿using Portfolio.Models;
+using Portfolio.Services.Contracts;
 
 namespace Portfolio.Services
 {
-    public class RepositorioProyectos
+    public class RepositorioProyectos : IRepositorioProyectos
     {
         public List<Proyecto> ObtenerProyectos()
         {
